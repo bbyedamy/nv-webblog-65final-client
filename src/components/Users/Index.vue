@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Get All Users</h1>
+    <h1>Get All Book</h1>
     <div>จํานวนผู้ใช้งาน {{ users.length }}</div>
     <div v-for="user in users" v-bind:key="user.id">
       <div>id: {{ user.id }}</div>
-      <div>ชืEอ-นามสกุล: {{ user.name }} - {{ user.lastname }}</div>
+      <div>ชื่อ-นามสกุล: {{ user.name }} - {{ user.lastname }}</div>
       <div>email: {{ user.email }}</div>
       <div>password: {{ user.password }}</div>
       <p>

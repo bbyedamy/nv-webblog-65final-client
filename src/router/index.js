@@ -5,6 +5,8 @@ import UserEdit from '@/components/Users/EditUser'
 import UserShow from '@/components/Users/ShowUser'
 import UserCreate from '@/components/Users/CreateUser'
 
+import BlogShow from '@/components/Blog/ShowBlog'
+
 Vue.use(Router)
 
 export default new Router({
@@ -29,6 +31,7 @@ export default new Router({
       name: 'users',
       component: UserIndex
     },
+   
 
     
 
