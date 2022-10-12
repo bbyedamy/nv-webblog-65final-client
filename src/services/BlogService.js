@@ -3,16 +3,16 @@ export default {
     index(search) {
         return Api().get('books')
     },
-    show(bookId) {
+    show(blogId) {
         return Api().get('book/' + blogId)
     },
-    post(book) {
+    post(blog) {
         return Api().post('book', blog)
     },
-    put(book) {
+    put(blog) {
         return Api().put('book/' + blog.id, blog)
     },
-    delete(book) {
+    delete(blog) {
         return Api().delete('book/' + blog.id, blog)
     },
 }
